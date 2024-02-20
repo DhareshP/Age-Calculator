@@ -1,26 +1,3 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
-    <title>Age Calculator</title>
-</head>
-<body>
-    
-    <div class="container">
-        <div class="calculator">
-            <h1>JavaScript <br><span> Age Calculator</span></h1>
-            <div class="input-box">
-                <input type="date" id="date">
-                <button onclick="CalculateAge()">Calculate</button>
-            </div>
-            <p id="result"></p>
-        </div>
-    </div>
-
-<!-- <script>
-
 let userInput = document.getElementById("date");
 userInput.max = new Date().toISOString().split("T")[0];
 let result = document.getElementById("result");
@@ -64,8 +41,3 @@ function CalculateAge(){
 function getDaysInMonth(year, month){
     return new Date(year, month, 0).getDate();
 }
-
-</script> -->
-<script src="script.js"></script>
-</body>
-</html>
